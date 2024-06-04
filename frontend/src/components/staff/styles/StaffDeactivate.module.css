@@ -1,0 +1,21 @@
+.deactivateContainerStaff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 20px;
+  margin-bottom: 150px;
+  border-radius: 3px solid white;
+  color: antiquewhite;
+}
+.deactivateContainerStaff Button {
+  margin: 30px;
+  border: 1px solid rgb(250, 124, 89);
+  border-radius: 8px;
+}
+.deactivateContainerStaff Button:hover {
+  color: rgb(200, 238, 160);
+  border: 2px solid rgb(241, 248, 206);
+  border-radius: 8px;
+}
