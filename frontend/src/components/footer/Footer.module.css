@@ -1,0 +1,24 @@
+.footer {
+    display: flex; 
+    position: relative;
+    background-color: rgb(196, 199, 198);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px; 
+    justify-content: center;
+   
+      
+}
+
+.container {
+    margin: 40px;
+    font-size: small;
+    color:rgb(70, 75, 62);
+   
+}
+.text {
+    font-size: larger;
+}
