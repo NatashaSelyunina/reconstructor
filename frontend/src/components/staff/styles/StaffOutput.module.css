@@ -1,0 +1,77 @@
+.outputStaffContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 100%;
+  gap: 20px;
+}
+.adminContainer,
+.cooksContainer,
+.waitersContainer,
+.bartenderContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 15px;
+  border: 1px solid wheat;
+  border-radius: 8px;
+  list-style-type: none;
+  max-width: 480px;
+  margin-right: 10px;
+  margin: 0 auto;
+}
+.adminContainer h2,
+.cooksContainer h2,
+.waitersContainer h2,
+.bartenderContainer h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+.adminContainer li,
+.cooksContainer li,
+.waitersContainer li,
+.bartenderContainer li {
+  list-style-type: none;
+}
+
+.outputStaffContainer div {
+  margin: 10px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+  margin-top: 60px;
+}
+.button button {
+  width: 80px;
+
+  margin-bottom: 10px;
+  color: olivedrab;
+  border: 1px solid wheat;
+  border-radius: 8px;
+  margin-right: 50px;
+  margin-left: 80px;
+}
+.button button:hover {
+  color: aqua;
+  border: 1px solid aqua;
+}
+
+@media (max-width: 768px) {
+  .outputStaffContainer div {
+    margin: 5px;
+    padding: 8px;
+  }
+  .button button {
+    display: flex;
+    flex-direction: column;
+  }
+}
