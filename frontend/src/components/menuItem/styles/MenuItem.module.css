@@ -1,0 +1,77 @@
+.menuItem {
+  display: flex;
+  max-width: 100%;
+}
+
+.menuItem h3 {
+  cursor: pointer;
+}
+.descriptionModal {
+  position: fixed;
+  display: flex;
+  min-width: 300px;
+  color: rgb(177, 252, 227);
+  z-index: 9;
+  background-color: rgba(169, 164, 164, 0.9);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  min-height: 50%;
+  flex-wrap: wrap;
+  top: 50px;
+  align-items: stretch;
+  font-size: 26px;
+  justify-content: center;
+}
+
+.menuItem Button {
+ display: flex;
+ width: 60px;
+ margin: 10px;
+ 
+}
+
+.menuItem Button:hover {
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 6px;
+  box-shadow: 2px 4px 6px rgb(41, 204, 240);
+}
+
+.modalItem .modal-dialog {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  flex-wrap: wrap;
+  margin: 10px;
+  height: 300px;
+  gap: 30px;
+  display: grid;
+  place-items: center;
+}
+.modalItem > * {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalItem .modal-content {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#dish {
+ max-width: 100%; 
+  height: auto; 
+}
+@media (max-width: 768px) {
+  .modalItem > * {
+    font-size: 16px;
+    
+  }
+}
