@@ -1,0 +1,112 @@
+.descriptionModal {
+  position: fixed;
+  display: flex;
+  width: 300px;
+  height: auto;
+  color: rgb(177, 252, 227);
+  z-index: 9;
+  background-color: rgba(169, 164, 164, 0.9);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+  top: 50px;
+  font-size: 26px;
+  justify-content: center;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.dishContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 10px;
+  width: 100%;
+  box-shadow: 0 0 0 0.3px rgb(241, 237, 237);
+  padding: 5px;
+}
+
+.description {
+  font-size: 12px;
+}
+.dishContainer button {
+  color: rgb(122, 231, 195);
+  width: 60px;
+  margin: 5px;
+  border-radius: 8px;
+}
+.dishPhoto {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+}
+.dishPhoto:hover {
+  width: 100%;
+}
+
+.dishContainer button:hover {
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 6px;
+}
+.smallDescription {
+  padding: 10px;
+}
+.addDishButton button{
+  width: 200px;
+}
+@media (max-width: 768px) {
+  .dishContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    gap: 6px;
+    font-size: 18px;
+    top: 3px;
+    box-shadow: 0 0 0 0.3px rgb(241, 237, 237);
+    justify-content: center;
+    justify-self: center;
+    padding: 5px;
+    margin: 5px;
+  }
+  .searchButton button {
+    margin: 5px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .dishContainer button {
+    width: 120px;
+    height: 36px;
+    size: 30px;
+    margin: 5px;
+  }
+  .menuItem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .dishPhoto {
+    width: 100px;
+    height: auto;
+  }
+  .addDishButton {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    padding: 20px;
+  }
+
+  .smallDescription {
+    font-size: 16px;
+  }
+}
