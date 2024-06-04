@@ -1,0 +1,12 @@
+.bigContainer {
+   padding-top: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+.bigContainer button{
+    margin: 10px;
+    font-size: inherit;
+    width: fit-content;
+}
