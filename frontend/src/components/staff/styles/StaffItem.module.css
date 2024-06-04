@@ -1,0 +1,52 @@
+.containerStaff {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px;
+  margin: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+.staffContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.button button {
+  width: 80px;
+  color: olivedrab;
+  border: 1px solid wheat;
+  border-radius: 8px;
+}
+.button button:hover {
+  color: aqua;
+  border: 1px solid aqua;
+}
+.generatedPassword {
+  margin-bottom: 60px;
+}
+.selectRole {
+  margin-top: 10px;
+  width: 100%;
+}
+.selectRole select {
+  width: 90%;
+  height: 44px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.dataOfBirth {
+  height: 40px;
+  width: 240px;
+}
+.staffContainer input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
