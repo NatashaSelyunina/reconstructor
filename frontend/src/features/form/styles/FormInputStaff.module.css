@@ -1,0 +1,29 @@
+.container {
+  width: 320px;
+  padding: 15px;
+  margin: 6px;
+}
+.button {
+  margin-left: 10px;
+  color: OliveDrab;
+  width: 60px;
+  border: 1px solid wheat;
+  border-radius: 8px;
+}
+
+.inputData {
+  width: 202px;
+  height: 34px;
+}
+.buttonGenerateAndAdd {
+  display: flex;
+  gap: 25px;
+}
+.button:hover {
+  color: aqua;
+  border: 1px solid aqua;
+}
+.staffContainer input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
