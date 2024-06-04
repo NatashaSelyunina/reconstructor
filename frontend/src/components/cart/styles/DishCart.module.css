@@ -1,0 +1,10 @@
+.buttonOrder button {
+  min-width: 280px;
+  margin: 6px;
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 6px;
+}
+.buttonOrder button:hover {
+  color: rgb(222, 129, 53);
+}
