@@ -1,0 +1,27 @@
+.addMenu {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.buttonAddMenu {
+  width: 300px;
+  margin: 30px;
+}
+
+.buttonAddMenu:hover {
+  color: rgb(12, 245, 245);
+}
+.formMenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.buttonAddSection {
+  display: flex;
+  margin: 19px;
+}
