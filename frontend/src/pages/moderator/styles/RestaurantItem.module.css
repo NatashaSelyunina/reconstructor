@@ -1,0 +1,60 @@
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 100%;
+  min-height: 100vh;
+}
+.restaurantItem {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  max-width: 180px;
+  border-radius: 50%;
+  height: auto;
+}
+.buttonAddStaffMenuTable {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.buttonAddStaffMenuTable Button:hover {
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 6px;
+}
+
+.buttonAddStaffMenuTable Button {
+  width: 320px; 
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.buttonHome {
+  display: flex;
+  align-self: flex-end;
+  margin: 160px;
+}
+.buttonHome Button {
+  width: 160px;
+  border: 1px solid wheat;
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .buttonAddStaffMenuTable Button {
+    padding: 8px 15px; 
+    font-size: 14px; 
+    width: 280px; 
+  }
+}
