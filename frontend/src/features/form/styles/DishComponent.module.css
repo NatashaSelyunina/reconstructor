@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: cadetblue;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.container > * {
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 5;
+}
+.container button {
+  margin: 20px;
+  width: 150px;
+}
+
+.bigContainer {
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .container > * {
+    width: 100%;
+  }
+}
+
+.photo {
+  width: 100%;
+  display: flex;
+}
