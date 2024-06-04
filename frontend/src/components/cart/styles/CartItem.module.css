@@ -1,0 +1,41 @@
+.cartItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  gap: 5px;
+  border: 1px solid rgb(194, 192, 192);
+}
+
+.nameDish {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+.button Button {
+  color: rgb(38, 201, 78);
+  width: 110px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(60, 246, 175);
+  border-radius: 6px;
+}
+.button Button:hover {
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  /* .cartItemContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+  } */
+}
