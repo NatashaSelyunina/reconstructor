@@ -1,0 +1,16 @@
+.readStaffContainer {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.adminContainer li {
+  list-style-type: none;
+  margin-bottom: 60px;
+  margin-right: 80px;
+}
+.adminContainer{
+  font-size: 28px;
+}
