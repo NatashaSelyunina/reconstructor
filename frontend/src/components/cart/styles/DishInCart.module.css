@@ -1,0 +1,22 @@
+.dishItem {
+  width: 100%;
+}
+.dishItem button {
+  color: rgb(36, 235, 129);
+  width: 110px;
+  border: 1px solid aqua;
+  border-radius: 6px;
+  margin-left: 6px;
+  margin-bottom: 10px;
+}
+.dishItem button:hover {
+  border: 1px solid aqua;
+  border-radius: 6px;
+  color: aqua;
+}
+@media (max-width: 768px) {
+  /* .dishItem button 
+    width: 80px;
+    height: 40px;
+  } */
+}
