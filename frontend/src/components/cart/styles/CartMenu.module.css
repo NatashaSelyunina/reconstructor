@@ -1,0 +1,30 @@
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartDish {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  min-height: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.orderContainer button {
+  width: 280px;
+  margin: 6px;
+}
+.orderContainer button:hover {
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 6px;
+}
+@media (max-width: 768px) {
+  .orderContainer button {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 200px;
+  }
+}
