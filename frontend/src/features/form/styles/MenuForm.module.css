@@ -1,0 +1,97 @@
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+}
+.addSectionSubSection {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.button {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dishesContainer button:hover {
+  box-shadow: 2px 8px 14px rgba(40, 157, 138, 0.535);
+  color: aquamarine;
+}
+.buttonSave {
+  display: flex;
+  margin: 10px;
+}
+.buttonSave Button {
+  display: flex;
+}
+.addMenuButton {
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: cadetblue;
+  border: 1px solid wheat;
+  border-radius: 8px;
+  text-align: center;
+  align-content: space-around;
+  width: 100%;
+}
+.container > * {
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 5;
+  border: 1px solid wheat;
+  border-radius: 8px;
+  padding: 10px;
+}
+.container input,
+textarea {
+  border: 1px solid wheat;
+  border-radius: 8px;
+}
+.subContainer {
+  display: flex;
+  width: 100%;
+}
+
+.sections {
+  margin: 20px;
+  display: flex;
+}
+
+.bigContainer button {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 10px;
+}
+.photo {
+  height: 50px;
+  size: 50px;
+}
+
+.bigContainer button:hover {
+  color: rgb(12, 245, 245);
+}
+
+.fon {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding: 7px;
+  }
+}
