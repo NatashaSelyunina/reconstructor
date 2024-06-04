@@ -1,0 +1,13 @@
+.adminContainer {
+  display: flex;
+  flex-direction: column;
+}
+.adminContainerButton {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 10px;
+}
+.adminContainerButton Button {
+  width: 260px;
+}
