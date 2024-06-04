@@ -1,0 +1,14 @@
+.errorImg img{
+  width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-size: cover;
+}
+.errorText {
+  margin-top: 50px;
+  padding: 15px;
+}
