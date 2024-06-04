@@ -1,0 +1,31 @@
+.dataOfBirth {
+  height: 40px;
+  width: 240px;
+}
+.selectRole {
+  font-size: 26px;
+}
+.staffContainer {
+  display: flex;
+}
+.button {
+  width: 68px;
+  color: olivedrab;
+}
+.staffContainer form > div {
+  margin-bottom: 8px;
+}
+.staffContainer form select {
+  height: 40px;
+  width: 240px;
+}
+@media (max-width: 768px) {
+  .dataOfBirth {
+    width: 200px;
+    height: 32px;
+  }
+  .staffContainer form select {
+    height: 32px;
+    width: 200px;
+  }
+}
