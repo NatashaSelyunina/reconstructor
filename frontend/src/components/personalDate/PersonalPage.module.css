@@ -1,0 +1,19 @@
+.personalContainer {
+  z-index: 100;
+  margin-top: 68px;
+  position: absolute;
+}
+.personalContainer button {
+  width: 68px;
+  border-radius: 6px;
+}
+
+.personalContainer button:hover {
+  color: aqua;
+  border: 2px solid aqua;
+  border-radius: 6px;
+}
+
+.person {
+  background-color: rgb(78, 78, 79);
+}
