@@ -1,0 +1,12 @@
+.staffDetailsContainer {
+  border: 1px solid wheat;
+  border-radius: 8px;
+  margin-top: 16px;
+  padding: 12px;
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .staffDetailsContainer {
+    font-size: 14px;
+  }
+}
