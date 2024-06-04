@@ -1,0 +1,11 @@
+.containerDish {
+margin: 100px;
+align-content: center;
+
+}
+
+.bigContainer {
+    display: flex;
+    justify-content: center;
+    
+}
