@@ -1,0 +1,11 @@
+.paymentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  width: 100%;
+}
+.button {
+  margin: 100px 0;
+}
