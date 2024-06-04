@@ -1,0 +1,26 @@
+.addStaff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 18px;
+  width: 100%;
+}
+.generateButton {
+  width: 60px;
+  margin-left: 50px;
+  color: OliveDrab;
+  border: 1px solid wheat;
+  border-radius: 8px;
+}
+.generateButton :hover {
+  color: aqua;
+  border: 1px solid aqua;
+}
+.geNerateContainerText {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 30px;
+  gap: 20px;
+}
