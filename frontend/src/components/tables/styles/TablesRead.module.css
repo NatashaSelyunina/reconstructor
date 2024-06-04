@@ -1,0 +1,41 @@
+.readTablesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 6px;
+  max-width: 100%;
+}
+.readTablesContainer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+}
+.readTablesContainer h2{
+  justify-content: center;
+  margin: 80px;
+}
+.readTablesContainer button {
+  width: 200px;
+  border: 1px solid #65def6;
+  color: aqua;
+  border-radius: 8px;
+}
+.readTablesContainer button:hover {
+  color: rgb(245, 90, 90);
+}
+.codContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 360px;
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #fbfbce;
+  border-radius: 8px;
+}
