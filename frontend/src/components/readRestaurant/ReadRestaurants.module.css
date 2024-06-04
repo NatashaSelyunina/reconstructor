@@ -1,0 +1,58 @@
+.restaurantsContainer {
+  color: rgb(241, 238, 238);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.restaurantContainer {
+  color: rgb(241, 238, 238);
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 40px;
+}
+.restaurantContainer ul {
+  display: flex;
+  width: 400px;
+}
+.restaurantContainer li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  height: 470px;
+  background-color: #525962;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid aqua;
+  margin-top: 40px;
+}
+.restaurantContainer li span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.buttonLink {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #393b3d;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  border: 2px solid aqua;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: -1px -5px 15px #e6e6f2, 5px 5px 15px #d5d8e4;
+}
+.buttonLink:hover {
+  color: aqua;
+}
